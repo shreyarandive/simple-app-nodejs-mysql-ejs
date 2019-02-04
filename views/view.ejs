@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Node.js MySQL app</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <%
+        if(locals.data.number !== null){
+        Object.values(locals.data)
+        .forEach(item => {
+        %>
+            <p>
+                <%= "Name: " + item.name + "  Country: " + item.country %>
+            </p>
+        <%
+        })
+        }
+        %>
+    </div>
+</div>
+</body>
+</html>

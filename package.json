@@ -1,0 +1,25 @@
+{
+  "name": "simple-app-nodejs-mysql-ejs",
+  "version": "1.0.0",
+  "description": "simple app using node.js to display on the web page from a mysql database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyarandive/simple-app-nodejs-mysql-ejs.git"
+  },
+  "author": "Shreya Randive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyarandive/simple-app-nodejs-mysql-ejs/issues"
+  },
+  "homepage": "https://github.com/shreyarandive/simple-app-nodejs-mysql-ejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
